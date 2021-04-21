@@ -299,13 +299,13 @@ h6 {
 }
 
 .project1 {
-	background: url(https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80)
+	background: url(https://images.unsplash.com/photo-1581894158358-5ecd2c518883?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=806&q=80)
 		no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .project1::after {
-	content: "timeless flow.";
+	content: "be great.";
 	font-family: "Roboto Mono";
 	font-size: 36px;
 	position: relative;
@@ -318,13 +318,13 @@ h6 {
 }
 
 .project2 {
-	background: url(https://images.unsplash.com/photo-1468870045442-e7d799d8c98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80)
+	background: url(https://images.unsplash.com/photo-1552008597-bb4b5251c454?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
 		no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .project2::after {
-	content: "foretime.";
+	content: "inspire.";
 	font-family: "Roboto Mono";
 	font-size: 36px;
 	position: relative;
@@ -337,13 +337,13 @@ h6 {
 }
 
 .project3 {
-	background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
+	background: url(https://images.unsplash.com/photo-1552008597-bb4b5251c454?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
 		no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .project3::after {
-	content: "never again.";
+	content: "create beauty.";
 	font-family: "Roboto Mono";
 	font-size: 36px;
 	position: relative;
@@ -356,19 +356,37 @@ h6 {
 }
 
 .project4 {
-	background: url(https://images.unsplash.com/photo-1435685813800-51ba4ceb9c4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1785&q=80)
+	background: url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
 		no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .project4::after {
-	content: "departure.";
+	content: "breathe.";
 	font-family: "Roboto Mono";
 	font-size: 36px;
 	position: relative;
 	color: #fff;
 	display: block;
 	top: 10%;
+	left: 90%;
+	right: 0;
+	bottom: 0;
+}
+.project5 {
+	background: url(https://images.unsplash.com/photo-1552008597-bb4b5251c454?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+		no-repeat 50% 50%;
+	background-size: 600px;
+}
+
+.project5::after {
+	content: " ";
+	font-family: "Roboto Mono";
+	font-size: 36px;
+	position: relative;
+	color: #fff;
+	display: block;
+	top: 80%; 
 	left: 90%;
 	right: 0;
 	bottom: 0;
@@ -615,3 +633,197 @@ textarea:focus {
 .next p {
 	text-align: right;
 }
+
+/*/ start about work experience /*/
+
+#experience {
+	margin-top: 20px;
+}
+
+#experience h2 {
+	font-weight: 700;
+	margin-top: 22px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.timeline-label h4 {
+	margin-top: 0;
+	font-size: 30px;
+	color: #a8adad;
+	padding: 16px 0px;
+	font-weight: 700;
+}
+
+.timeline-label p {
+	color: #696969;
+	padding: 8px 0px;
+	line-height: 27px;
+}
+
+.button-group-li {
+	cursor: pointer;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.timeline-label a {
+	text-decoration: none;
+}
+
+.text-timeline {
+	background: grey;
+	color: #fff;
+	font-size: 18px;
+	height: 40px;
+	padding: 0 25px;
+	line-height: 40px;
+}
+
+.icon-li {
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	line-height: 30px;
+	box-sizing: border-box;
+	border: 4px solid grey;
+	border-left: none;
+	-webkit-transition: 600ms -webkit-transform ease-in-out;
+	transition: 600ms -webkit-transform ease-in-out;
+	transition: 600ms transform ease-in-out;
+	transition: 600ms transform ease-in-out, 600ms -webkit-transform ease-in-out;
+	-webkit-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+	-webkit-transform-origin: left;
+	transform-origin: left;
+	color: grey;
+	background: #fff;
+	text-align: center;
+}
+
+.button-group-li:hover .icon-li {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+.button-group-li {
+	-webkit-perspective: 200px;
+	perspective: 200px;
+	-webkit-perspective-origin: calc(100% - 40px);
+	perspective-origin: calc(100% - 40px);
+}
+
+.timeline-label {
+	padding-left: 7%;
+	margin-top: 2%;
+}
+
+.col-exp {
+	margin-top: 2%;
+}
+
+.timeline .timeline-experience {
+	position: relative;
+	float: left;
+	margin-left: 32px;
+	padding-left: 64px;
+	border-left: 2px solid #ccc;
+}
+
+.timeline .timeline-experience-info h5 {
+	margin-top: 0;
+	margin-bottom: 0.333em;
+	font-size: 18px;
+	color: grey;
+	font-weight: 700;
+}
+
+.timeline .timeline-experience-info .timeline-role {
+	font-size: 16px;
+	color: #565a5a;
+	font-weight: 600;
+}
+
+.timeline .timeline-experience-info p {
+	font-size: 12px;
+	color: #333;
+	line-height: 27px;
+}
+
+.timeline time {
+	display: block;
+	width: 65px;
+	color: #ccc;
+	text-align: center;
+	font-weight: 700;
+}
+
+.timeline .timeline-experience-img,
+.timeline .timeline-experience-info,
+.timeline .timeline-experience-info h5,
+.timeline .timeline-experience-info .role,
+.timeline .timeline-experience-info p {
+	clear: none;
+}
+
+.timeline .timeline-experience .timeline-circle {
+	position: absolute;
+	top: 16px;
+	left: -13px;
+	display: block;
+	width: 19px;
+	height: 19px;
+	border: 3px solid #ccc;
+	border-radius: 50%;
+	background-color: #F5F5F5;
+}
+
+.timeline .timeline-experience-img {
+	float: left;
+	width: 64px;
+	height: 64px;
+}
+
+.timeline .timeline-experience-img img {
+	width: 100%;
+}
+
+.timeline .timeline-experience-info {
+	margin-left: 87px;
+}
+
+.timeline-experience-info p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+/*/ end about work experience /*/
+
+/*/ about me /*/
+body {
+	background: #f1f1f1;
+	color: #222;
+	font-family: 'Open Sans', sans-serif;
+  }
+  
+  .wrapperabout {
+	padding: 100px;
+	width: 500px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+  }
+  
+  .roles1 {
+	  font-size: 30px;
+	  height: 50px;
+	  vertical-align: middle;
+	  overflow: hidden;
+  }
+  
+  .roles div {
+	  height: 50px;
+	  transition: margin-top 1s ease-in-out;
+  }
